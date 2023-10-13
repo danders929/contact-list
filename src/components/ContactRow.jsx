@@ -5,5 +5,6 @@ export default function ContactRow({ contact, row}) {
       <td>{contact.email}</td>
       <td>{contact.phone}</td>
     </tr>
+
   );
 }

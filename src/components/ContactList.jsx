@@ -29,7 +29,7 @@ useEffect(() => {
         <table>
           <thead>
             <tr>
-              <th colSpan="3">Contact List</th>
+              <th className="contactHead" colSpan="3">Contact List</th>
             </tr>
           </thead>
           <tbody>

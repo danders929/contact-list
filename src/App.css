@@ -44,3 +44,7 @@
 .contactHead {
   text-decoration: underline;
 }
+
+.home {
+  align-items: start;
+}

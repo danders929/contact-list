@@ -8,11 +8,16 @@ function App() {
 
   return (
     <>
+      <header>
+        <button onClick={() => setSelectedContactId(() => null )}>Home</button>
+      </header>
+      <div className="table">
       {selectedContactId ? (
         <SelectedContact selectedContactId={selectedContactId} />
       ) : (
         <ContactList setSelectedContactId={setSelectedContactId} />
       )}
+      </div>
     </>
   )};
 
